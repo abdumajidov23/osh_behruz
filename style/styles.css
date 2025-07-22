@@ -128,12 +128,14 @@ body {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   transition: background 0.3s ease, transform 0.3s ease;
-  backdrop-filter: blur(6px);
-  -webkit-backdrop-filter: blur(6px);
+  /* backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px); */
+    transform: translateY(20px);
+  animation: fadeInUp 1s ease forwards;
 }
 
 #playPauseBtn:hover {
-  background: linear-gradient(135deg, rgba(255, 0, 200, 0.3), rgba(160, 0, 160, 0.3));
+  background: linear-gradient(135deg, rgba(255, 42, 209, 0.817), rgba(89, 24, 255, 0.932));
   color: #fff;
   transform: scale(1.05);
 }
